@@ -1,0 +1,15 @@
+*
+ * Complete the simpleArraySum function below.
+ */
+function simpleArraySum(array) 
+{
+    var total = 0;
+    if(array instanceof Array)
+    {
+        for(var i=0; i<array.length; i++)
+        {
+            total += array[i];
+        }
+        return total;
+    }
+}
